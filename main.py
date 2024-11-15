@@ -11,3 +11,4 @@ def russian_roulette(n):
     else:
         print("*click*")
 
+russian_roulette(6)
