@@ -9,7 +9,7 @@ A Python implementation of Russian Roulette that uses your system files as stake
 
 ## 🔧 How it works
 
-The program uses Python's random module to generate numbers and simulate a revolver's chamber. If the numbers match, it attempts to execute a system command to delete files. The game uses a 1/6 chance by default, simulating a six-chamber revolver.
+The program must be executed as root user to work properly. It uses Python's random module to generate numbers and simulate a revolver's chamber. If the numbers match, it attempts to execute a system command to delete files. The game uses a 1/6 chance by default, simulating a six-chamber revolver.
 
 ## 📋 Requirements
 
